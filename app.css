@@ -1,5 +1,59 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --purple: #5438DC;
+    --silver: #C5CBD3;
+    --black: #000000;
+    --green: #20FC8F;
+    --red: #FF0035;
+  }
+  
 *{
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+}
+.intro{ 
+    letter-spacing: 2px;
+
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #282828;
+    -webkit-box-shadow: 12px 12px 18px #222222, -12px -12px 18px #2e2e2e;
+    box-shadow: 12px 12px 18px #222222, -12px -12px 18px #2e2e2e;
+
+}
+.intro h2{
+    color: var(--red);
+    font-weight: 480;
+}
+
+.quiz{
+    background-color: #5B5F97;
+    color: var(--silver);
+    letter-spacing: 1.2px;
+    line-height: 2.4;
+}
+.quiz label{
+    cursor: pointer;
+}
+
+.quiz form .my-5{
+    font-weight: 300;
+    color:#ffffff;
+    
+    padding: calc(0.25vw + 12px) ;
+    border: 4px solid var(--white);
+    border-radius: 12px;
+
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.quiz form .my-5 p{
+    font-weight: 600;
 }
