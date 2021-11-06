@@ -7,5 +7,5 @@
 Thats all ! 🌟
 
 <h2>
-To play Visit: <a href="spideyquiz.netlify.app">Quiz is Here</a>
+To play Visit: <a href="https://spideyquiz.netlify.app/">Quiz is Here</a>
 </h2>
