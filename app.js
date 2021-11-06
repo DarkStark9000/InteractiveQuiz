@@ -19,7 +19,7 @@ form.addEventListener('submit', e => {
 
     let out = 0;
     const timer = setInterval(() => {
-      result.querySelector('span').textContent = out;
+      result.querySelector('span').textContent = `${out} %`;
       if (out === score) {
         clearInterval(timer);
       } else {
